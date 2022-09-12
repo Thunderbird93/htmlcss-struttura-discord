@@ -206,3 +206,57 @@ section h3 {
     width: 66%;
     background-color: beige;
 }
+
+footer {
+    background-color: black;
+    height: 500px;
+    width: auto;
+    margin: 0 10% 0;
+}
+
+.foot {
+    height: 350px;
+    width: auto;
+    background-color: whitesmoke;
+}
+
+
+.foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.foot div {
+    height: 330px;
+    width: 30%;
+    border: 1px solid red;
+}
+
+.foot nav {
+    height: 330px;
+    width: 17.5%;
+    border: 1px solid red;
+}
+
+.end {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 150px;
+    width: auto;
+    background-color: rebeccapurple;
+}
+
+.end .logo-2 {
+    height: 150px;
+    width: 200px;
+    background-color: blue;
+}
+
+.end button {
+    height: 150px;
+    width: 200px;
+    background-color: blue;
+}
