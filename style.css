@@ -45,29 +45,107 @@ header .btn{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.illustrazione {
     display: flex;
     flex-direction: column;
 }
 
 main h1 {
     height: 100px;
-    width: 300px;
+    width: 66%;
     background-color: aliceblue;
 }
 
 main p {
     height: 100px;
-    width: 300px;
-    background-color: darkorange;
+    width: 66%;
+    background-color: grey;
 }
 
 .bottoni {
     height: 100px;
-    width: 300px;
+    width: 66%;
     background-color: bisque;
     display: flex;
     justify-content: center;
+}
+
+main h2 {
+    height: 200px;
+    width: 320px;
+    background-color: yellow;
+}
+
+.illustrazione-due {
+    width: auto;
+    height: 500px;
+    background-color: lightgrey;
+    margin: 0 10% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.illustrazione-due img {
+    height: 300px;
+    width: 33%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+
+main .illustrazione-due p {
+    height: 100px;
+    width: 320px;
+    backdrop-filter: lightgrey;
+}
+
+.illustrazione-tre {
+    width: auto;
+    height: 500px;
+    background-color: white;
+    margin: 0 10% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.illustrazione-tre img {
+    height: 300px;
+    width: 33%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+
+main .illustrazione-tre p {
+    height: 100px;
+    width: 320px;
+    backdrop-filter: lightgrey;
+}
+
+.illustrazione-quattro {
+    width: auto;
+    height: 500px;
+    background-color: lightgrey;
+    margin: 0 10% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.illustrazione-quattro img {
+    height: 300px;
+    width: 33%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+
+main .illustrazione-quattro p {
+    height: 100px;
+    width: 320px;
+    backdrop-filter: lightgrey;
 }
