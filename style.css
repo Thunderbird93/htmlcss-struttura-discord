@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 
-header {
-    background-color: blue;
+header, main {
+    background-color: #3D60D9;
 }
 
 .top {
@@ -17,7 +17,7 @@ header {
     margin: 0 10% 0;
 }
 
-span, nav, button {
+header span, nav, button {
     border: 1px solid black;
     height: 100%;
 }
@@ -27,13 +27,47 @@ span, nav, button {
     background-color: yellow;
 }
 
-nav{
+header nav{
     width: 40%;
     background-color: white;
 }
 
-.btn{
+header .btn{
     width: 30%;
     background-color: yellowgreen;
 }
 
+.illustrazione {
+    width: auto;
+    height: 500px;
+    background-color: burlywood;
+    margin: 0 10% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.illustrazione {
+    display: flex;
+    flex-direction: column;
+}
+
+main h1 {
+    height: 100px;
+    width: 300px;
+    background-color: aliceblue;
+}
+
+main p {
+    height: 100px;
+    width: 300px;
+    background-color: darkorange;
+}
+
+.bottoni {
+    height: 100px;
+    width: 300px;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+}
