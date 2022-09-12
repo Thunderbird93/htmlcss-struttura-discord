@@ -4,22 +4,36 @@
     box-sizing: border-box;
 }
 
+header {
+    background-color: blue;
+}
+
 .top {
     display: flex;
     height: 100px;
-    background-color: #3D60D8;
     justify-content: space-around;
     align-items: center;
+    background-color: white;
+    margin: 0 10% 0;
+}
+
+span, nav, button {
+    border: 1px solid black;
+    height: 100%;
 }
 
 .top .logo {
-    height: 80px;
-    width: 80px;
+    width: 30%;
+    background-color: yellow;
+}
+
+nav{
+    width: 40%;
     background-color: white;
 }
 
-header ul {
-    display: flex;
-    list-style: none;
-    justify-content: flex-start;
+.btn{
+    width: 30%;
+    background-color: yellowgreen;
 }
+
