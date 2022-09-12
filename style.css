@@ -7,5 +7,19 @@
 .top {
     display: flex;
     height: 100px;
-    background-color: aquamarine;
+    background-color: #3D60D8;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.top .logo {
+    height: 80px;
+    width: 80px;
+    background-color: white;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
 }
